@@ -2,7 +2,7 @@
 
 Software engineer working on identity and access automation. Currently building
 Python tooling against the Microsoft Graph API that automates account provisioning
-and deprovisioning for 400+ users across 100+ properties at Habitat America,
+and deprovisioning for 400+ users across 100+ properties,
 replacing a manual, per-person setup process.
 
 Full-stack background in React, FastAPI/Flask, and SQL, with automated test
