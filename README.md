@@ -25,4 +25,4 @@ coverage built in from the start rather than added after the fact.
 
 ### Working with
 
-Python, TypeScript, React, FastAPI, Flask, PostgreSQL, Microsoft Graph API, Microsoft Entra ID, Terraform, GitHub Actions
+Python, TypeScript, PowerShell, React, FastAPI, Flask, PostgreSQL, Microsoft Graph API, Microsoft Entra ID, Terraform, GitHub Actions
