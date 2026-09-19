@@ -14,7 +14,7 @@ coverage built in from the start rather than added after the fact.
 
 ### Built
 
-- **[ticket-system](https://github.com/pobriendev/ticket-system)** — helpdesk app, React/Vite + FastAPI + PostgreSQL, JWT auth, role-based access, full audit trail. 167 backend tests, ~96% coverage.
+- **[ticket-system](https://github.com/pobriendev/ticket-system)** — helpdesk app, React/Vite + FastAPI + PostgreSQL, JWT auth, role-based access, full audit trail. 167 backend tests, ~96% coverage. [Live demo](https://ticket-system-azure-omega.vercel.app).
 - **[entra-stale-accounts](https://github.com/pobriendev/entra-stale-accounts)** — `pip install entra-stale-accounts`. Flags Entra ID accounts inactive past a set threshold, including ones that never signed in.
 - **[employee-provisioning-tool](https://github.com/pobriendev/employee-provisioning-tool)** — CLI that runs Entra ID onboarding/offboarding end to end, with dry-run mode and a full audit log so nothing happens silently.
 - **[ski-resort-explorer](https://github.com/pobriendev/ski-resort-explorer)** — React + Flask, pulls live weather and precipitation data via OpenWeatherMap.
