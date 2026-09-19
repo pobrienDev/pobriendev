@@ -19,9 +19,10 @@ coverage built in from the start rather than added after the fact.
 - **[employee-provisioning-tool](https://github.com/pobriendev/employee-provisioning-tool)** — CLI that runs Entra ID onboarding/offboarding end to end, with dry-run mode and a full audit log so nothing happens silently.
 - **[ski-resort-explorer](https://github.com/pobriendev/ski-resort-explorer)** — React + Flask, pulls live weather and precipitation data via OpenWeatherMap.
 - **[dartmetrics](https://github.com/pobriendev/dartmetrics)** — darts scoring platform (501, Cricket, Halve It) with a framework-free scoring engine and event-sourced stats — every dart is stored, nothing aggregated. [Live demo](https://dartmetrics.onrender.com).
+- **[entra-terraform](https://github.com/pobriendev/entra-terraform)** — Terraform for the Entra ID identity layer the Graph tools above run on: app registration with least-privilege permissions and admin consent as code, a rotating secret in Key Vault, locked-down remote state. CI runs `terraform plan` on every PR over OIDC with a read-only identity and no stored secrets.
 
 <!-- next thing goes here -->
 
 ### Working with
 
-Python, React, FastAPI, Flask, PostgreSQL, Microsoft Graph API, Microsoft Entra ID, GitHub Actions
+Python, React, FastAPI, Flask, PostgreSQL, Microsoft Graph API, Microsoft Entra ID, Terraform, GitHub Actions
