@@ -1,16 +1,16 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="840" alt="Patrick O'Brien, Identity and Access Automation. Microsoft Entra ID and Azure, full-stack web apps. Baltimore, MD.">
+  <img src="assets/header-light.svg" width="840" alt="Patrick O'Brien, Software Engineer, Identity and Access Automation. Microsoft Entra ID and Azure, full-stack web apps. Baltimore, MD.">
 </picture>
 
-I automate the identity layer, and the infrastructure underneath it. Right now that
+I'm a software engineer who automates the identity layer, and the infrastructure underneath it. Right now that
 means automating Microsoft Entra ID onboarding and offboarding for 400+ users across
 100+ properties at Habitat America with Python and the Microsoft Graph API, and
 provisioning the app registrations, permissions, and secret storage those tools run
 on as Terraform.
 
-I build full-stack apps too, in React and FastAPI, with 700+ automated tests and
-CI/CD behind them.
+I also build and ship full-stack apps in React and FastAPI, with 700+ automated
+tests and CI/CD behind them.
 
 [pobriendev.github.io/portfolio](https://pobriendev.github.io/portfolio) · patobrien3590@gmail.com
 

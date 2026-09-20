@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 248" width="840" height="248" role="img" aria-labelledby="t d">
-<title id="t">Patrick O'Brien, Identity and Access Automation</title>
-<desc id="d">A terminal window types the command whoami and prints: Patrick O'Brien, Identity and Access Automation, Microsoft Entra ID and Azure, full-stack web apps, Baltimore, Maryland.</desc>
+<title id="t">Patrick O'Brien, Software Engineer, Identity and Access Automation</title>
+<desc id="d">A terminal window types the command whoami and prints: Patrick O'Brien, Software Engineer, Identity and Access Automation, Microsoft Entra ID and Azure, full-stack web apps, Baltimore, Maryland.</desc>
 <style>
   .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:15px}
   .c{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:15px;fill:#1F2328;animation:show .01s linear both}
@@ -31,7 +31,7 @@
   <text x="28" y="126" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#1F2328" letter-spacing="-0.3">Patrick O'Brien</text>
 </g>
 <g class="fade" style="animation-delay:1.92s">
-  <text x="28" y="156" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#9A6700">Identity &amp; Access Automation</text>
+  <text x="28" y="156" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#9A6700">Software Engineer  ·  Identity &amp; Access Automation</text>
 </g>
 <g class="fade" style="animation-delay:2.22s">
   <text x="28" y="182" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#57606A">Microsoft Entra ID / Azure  ·  full-stack web apps  ·  Baltimore, MD</text>
