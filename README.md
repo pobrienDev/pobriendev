@@ -1,4 +1,7 @@
-# Patrick O'Brien
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" width="840" alt="Patrick O'Brien, Software Engineer. Identity and access automation, full-stack web apps. Baltimore, MD.">
+</picture>
 
 Software engineer working on identity and access automation. Currently building
 Python tooling against the Microsoft Graph API that automates account provisioning
@@ -25,4 +28,7 @@ coverage built in from the start rather than added after the fact.
 
 ### Working with
 
-Python, TypeScript, PowerShell, React, FastAPI, Flask, PostgreSQL, Microsoft Graph API, Microsoft Entra ID, Terraform, GitHub Actions
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img src="assets/stack-light.svg" width="592" alt="Python, TypeScript, PowerShell, React, FastAPI, Flask, PostgreSQL, Microsoft Graph API, Microsoft Entra ID, Azure, Terraform, GitHub Actions">
+</picture>

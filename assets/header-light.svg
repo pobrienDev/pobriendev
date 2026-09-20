@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 236" width="840" height="236" role="img" aria-labelledby="t d">
+<title id="t">Patrick O'Brien, Software Engineer</title>
+<desc id="d">A terminal window types the command whoami and prints: Patrick O'Brien, Software Engineer, identity and access automation, full-stack web apps, Baltimore, Maryland.</desc>
+<style>
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:15px}
+  .c{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:15px;fill:#1F2328;opacity:0;animation:show .01s linear forwards}
+  .fade{opacity:0;animation:fadeup .45s ease-out forwards}
+  .cur1{animation:move 0.66s steps(6,end) 0.71s forwards, hide .01s linear 1.52s forwards}
+  .cur2{opacity:0;animation:blink 1.1s steps(1,end) 2.72s infinite}
+  @keyframes show{to{opacity:1}}
+  @keyframes fadeup{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes move{to{transform:translateX(55.2px)}}
+  @keyframes hide{to{opacity:0}}
+  @keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){
+    .c,.fade{animation:none;opacity:1}
+    .cur1{animation:none;opacity:0}
+    .cur2{animation:none;opacity:1}
+  }
+</style>
+<rect x="0.5" y="0.5" width="839" height="235" rx="10" fill="#FFFFFF" stroke="#D0D7DE"/>
+<path d="M1 11 A10 10 0 0 1 11 1 H829 A10 10 0 0 1 839 11 V36 H1 Z" fill="#F6F8FA"/>
+<line x1="1" y1="36.5" x2="839" y2="36.5" stroke="#D0D7DE"/>
+<circle cx="22" cy="18.5" r="5.5" fill="#D0D7DE"/><circle cx="41" cy="18.5" r="5.5" fill="#D0D7DE"/><circle cx="60" cy="18.5" r="5.5" fill="#D0D7DE"/>
+<text x="420.0" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#57606A">pobriendev: ~</text>
+
+<text class="mono" x="28" y="74" fill="#9A6700">$</text>
+<text class="c" style="animation-delay:0.71s" x="46.4" y="74">w</text><text class="c" style="animation-delay:0.82s" x="55.6" y="74">h</text><text class="c" style="animation-delay:0.93s" x="64.8" y="74">o</text><text class="c" style="animation-delay:1.04s" x="74.0" y="74">a</text><text class="c" style="animation-delay:1.15s" x="83.2" y="74">m</text><text class="c" style="animation-delay:1.26s" x="92.4" y="74">i</text>
+<rect class="cur1" x="46.4" y="60" width="9" height="18" fill="#9A6700"/>
+
+<g class="fade" style="animation-delay:1.62s">
+  <text x="28" y="126" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#1F2328" letter-spacing="-0.3">Patrick O'Brien</text>
+</g>
+<g class="fade" style="animation-delay:1.92s">
+  <text x="28" y="156" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#9A6700">Software Engineer</text>
+</g>
+<g class="fade" style="animation-delay:2.22s">
+  <text x="28" y="182" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#57606A">identity &amp; access automation  ·  full-stack web apps  ·  Baltimore, MD</text>
+</g>
+
+<g class="fade" style="animation-delay:2.62s">
+  <text class="mono" x="28" y="214" fill="#9A6700">$</text>
+</g>
+<rect class="cur2" x="46.4" y="200" width="9" height="18" fill="#9A6700"/>
+</svg>
