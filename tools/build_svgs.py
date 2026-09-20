@@ -33,8 +33,8 @@ def header(t):
     typed_end = start + (len(word)+1)*step          # when typing is done
     out1, out2, out3, prompt2 = typed_end+0.25, typed_end+0.55, typed_end+0.85, typed_end+1.35
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H+12}" width="{W}" height="{H+12}" role="img" aria-labelledby="t d">
-<title id="t">Patrick O'Brien, Software Engineer</title>
-<desc id="d">A terminal window types the command whoami and prints: Patrick O'Brien, Software Engineer, identity and access automation, full-stack web apps, Baltimore, Maryland.</desc>
+<title id="t">Patrick O'Brien, Identity and Access Automation</title>
+<desc id="d">A terminal window types the command whoami and prints: Patrick O'Brien, Identity and Access Automation, Microsoft Entra ID and Azure, full-stack web apps, Baltimore, Maryland.</desc>
 <style>
   .mono{{font-family:{MONO};font-size:15px}}
   .c{{font-family:{MONO};font-size:15px;fill:{t["text"]};animation:show .01s linear both}}
@@ -65,10 +65,10 @@ def header(t):
   <text x="{x0}" y="126" font-family="{SANS}" font-size="36" font-weight="700" fill="{t["text"]}" letter-spacing="-0.3">Patrick O'Brien</text>
 </g>
 <g class="fade" style="animation-delay:{out2:.2f}s">
-  <text x="{x0}" y="156" font-family="{SANS}" font-size="17" font-weight="600" fill="{t["accent"]}">Software Engineer</text>
+  <text x="{x0}" y="156" font-family="{SANS}" font-size="17" font-weight="600" fill="{t["accent"]}">Identity &amp; Access Automation</text>
 </g>
 <g class="fade" style="animation-delay:{out3:.2f}s">
-  <text x="{x0}" y="182" font-family="{MONO}" font-size="13" fill="{t["dim"]}">identity &amp; access automation  ·  full-stack web apps  ·  Baltimore, MD</text>
+  <text x="{x0}" y="182" font-family="{MONO}" font-size="13" fill="{t["dim"]}">Microsoft Entra ID / Azure  ·  full-stack web apps  ·  Baltimore, MD</text>
 </g>
 
 <g class="fade" style="animation-delay:{prompt2-0.1:.2f}s">
@@ -92,10 +92,15 @@ ENTRA = ('<path fill-rule="evenodd" d="M12 1.5 3.5 4.8v6.4c0 5.3 3.5 9.6 8.5 11.
 
 def stack(t):
     items = [  # label, source, colour (None = theme neutral)
-      ("Python", "python", "#3776AB"), ("TypeScript", "typescript", "#3178C6"), ("JavaScript", "javascript", "#F7DF1E" if t is THEMES["dark"] else "#C9A500"), ("PowerShell", "powershell", "#5391FE"),
+      # identity & cloud, then automation & infrastructure
+      ("Entra ID", ENTRA, None), ("Graph API", GRAPH, None), ("Azure", "microsoftazure", "#0078D4"),
+      ("Python", "python", "#3776AB"), ("PowerShell", "powershell", "#5391FE"), ("Terraform", "terraform", "#844FBA"),
+      ("GitHub Actions", "githubactions", "#2088FF"),
+      # languages, frameworks, data
+      ("Docker", "docker", "#2496ED"), ("TypeScript", "typescript", "#3178C6"),
+      ("JavaScript", "javascript", "#F7DF1E" if t is THEMES["dark"] else "#C9A500"),
       ("React", "react", "#61DAFB" if t is THEMES["dark"] else "#0A7EA4"), ("FastAPI", "fastapi", "#009688"), ("Flask", "flask", None),
-      ("PostgreSQL", "postgresql", "#4169E1"), ("Graph API", GRAPH, None), ("Entra ID", ENTRA, None),
-      ("Azure", "microsoftazure", "#0078D4"), ("Terraform", "terraform", "#844FBA"), ("GitHub Actions", "githubactions", "#2088FF"),
+      ("PostgreSQL", "postgresql", "#4169E1"),
     ]
     cols, pitch_x, pitch_y, tw, th = 7, 100, 94, 92, 84
     W, H = cols*pitch_x - (pitch_x - tw), 2*pitch_y - (pitch_y - th)
