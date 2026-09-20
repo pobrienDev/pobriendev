@@ -92,12 +92,12 @@ ENTRA = ('<path fill-rule="evenodd" d="M12 1.5 3.5 4.8v6.4c0 5.3 3.5 9.6 8.5 11.
 
 def stack(t):
     items = [  # label, source, colour (None = theme neutral)
-      ("Python", "python", "#3776AB"), ("TypeScript", "typescript", "#3178C6"), ("PowerShell", "powershell", "#5391FE"),
+      ("Python", "python", "#3776AB"), ("TypeScript", "typescript", "#3178C6"), ("JavaScript", "javascript", "#F7DF1E" if t is THEMES["dark"] else "#C9A500"), ("PowerShell", "powershell", "#5391FE"),
       ("React", "react", "#61DAFB" if t is THEMES["dark"] else "#0A7EA4"), ("FastAPI", "fastapi", "#009688"), ("Flask", "flask", None),
       ("PostgreSQL", "postgresql", "#4169E1"), ("Graph API", GRAPH, None), ("Entra ID", ENTRA, None),
       ("Azure", "microsoftazure", "#0078D4"), ("Terraform", "terraform", "#844FBA"), ("GitHub Actions", "githubactions", "#2088FF"),
     ]
-    cols, pitch_x, pitch_y, tw, th = 6, 100, 94, 92, 84
+    cols, pitch_x, pitch_y, tw, th = 7, 100, 94, 92, 84
     W, H = cols*pitch_x - (pitch_x - tw), 2*pitch_y - (pitch_y - th)
     tiles = []
     for i, (label, src, colour) in enumerate(items):
