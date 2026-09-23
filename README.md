@@ -5,7 +5,7 @@
 
 I'm a software engineer who automates the identity layer, and the infrastructure underneath it. Right now that
 means automating Microsoft Entra ID onboarding and offboarding for 400+ users across
-100+ properties at Habitat America with Python and the Microsoft Graph API, and
+100+ properties with Python and the Microsoft Graph API, and
 provisioning the app registrations, permissions, and secret storage those tools run
 on as Terraform.
 
