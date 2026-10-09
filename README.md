@@ -4,9 +4,9 @@
 </picture>
 
 I'm a software engineer who automates the identity layer, and the infrastructure underneath it.
-My title is IT Support Specialist. The work is engineering: Python tooling on the Microsoft Graph
-API that automates onboarding and offboarding in a Microsoft 365 tenant of 400+ users across 100+ properties,
-and, separately, that same identity layer codified as Terraform in a personal sandbox tenant.
+At work, that is Python tooling on the Microsoft Graph API that automates onboarding and
+offboarding in a Microsoft 365 tenant of 400+ users across 100+ properties. On my own time,
+I codified that same identity layer as Terraform in a personal sandbox tenant.
 
 I also build and ship full-stack apps in React and FastAPI, both live, with CI/CD behind them.
 
