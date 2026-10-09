@@ -3,11 +3,10 @@
   <img src="assets/header-light.svg" width="840" alt="Patrick O'Brien, Software Engineer, Identity and Access Automation. Microsoft Entra ID and Azure, full-stack web apps. Baltimore, MD.">
 </picture>
 
-I'm a software engineer who automates the identity layer, and the infrastructure underneath it. Right now that
-means automating Microsoft Entra ID onboarding and offboarding in a 400+-user, 100+-property
-Microsoft 365 tenant with Python and the Microsoft Graph API. Separately, I codified that same
-identity layer as Terraform in a personal sandbox tenant: the app registration, its Graph
-permissions and consent, secret storage, and the CI that plans every change.
+I'm a software engineer who automates the identity layer, and the infrastructure underneath it.
+My title is IT Support Specialist. The work is engineering: Python tooling on the Microsoft Graph
+API that automates onboarding and offboarding in a 400+-user, 100+-property Microsoft 365 tenant,
+and, separately, that same identity layer codified as Terraform in a personal sandbox tenant.
 
 I also build and ship full-stack apps in React and FastAPI, both live, with CI/CD behind them.
 
