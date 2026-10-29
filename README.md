@@ -1,12 +1,13 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="840" alt="Patrick O'Brien, Software Engineer, Identity and Access Automation. Microsoft Entra ID and Azure, full-stack web apps. Baltimore, MD.">
+  <img src="assets/header-light.svg" width="840" alt="Patrick O'Brien, Identity and Access Management, Cloud and Systems Administration. Microsoft Entra ID, Azure, Microsoft 365, Terraform, PowerShell and Python. Baltimore, MD.">
 </picture>
 
-I'm a software engineer who automates the identity layer, and the infrastructure underneath it.
-At work, that is Python tooling on the Microsoft Graph API that automates onboarding and
-offboarding in a Microsoft 365 tenant of 400+ users across 100+ properties.
-I codified that same identity layer as Terraform in a personal sandbox tenant.
+I work in IT and automate the identity layer, and the infrastructure underneath it.
+At work, that is Python and PowerShell tooling on the Microsoft Graph API that automates onboarding
+and offboarding in a Microsoft 365 tenant of 400+ users across 100+ properties. On my own time,
+I codified that same identity layer as Terraform in a personal sandbox tenant: app registrations,
+Conditional Access policies with guardrails, and monitors for expiring credentials and stale accounts.
 
 I also build and ship full-stack apps in React and FastAPI, both live, with CI/CD behind them.
 
