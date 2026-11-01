@@ -34,7 +34,7 @@ def header(t):
     out1, out2, out3, prompt2 = typed_end+0.25, typed_end+0.55, typed_end+0.85, typed_end+1.35
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H+12}" width="{W}" height="{H+12}" role="img" aria-labelledby="t d">
 <title id="t">Patrick O'Brien, Identity and Access Management, Cloud and Systems Administration</title>
-<desc id="d">A terminal window types the command whoami and prints: Patrick O'Brien, Identity and Access Management, Cloud and Systems Administration, Microsoft Entra ID, Azure, Microsoft 365, Terraform, PowerShell and Python, Baltimore, Maryland.</desc>
+<desc id="d">A terminal window types the command whoami and prints: Patrick O'Brien, Identity and Access Management, Cloud and Systems Administration, Microsoft Entra ID, Azure, Microsoft 365, Terraform, Python and PowerShell, Baltimore, Maryland.</desc>
 <style>
   .mono{{font-family:{MONO};font-size:15px}}
   .c{{font-family:{MONO};font-size:15px;fill:{t["text"]};animation:show .01s linear both}}
@@ -68,7 +68,7 @@ def header(t):
   <text x="{x0}" y="156" font-family="{SANS}" font-size="17" font-weight="600" fill="{t["accent"]}">Identity &amp; Access Management  ·  Cloud &amp; Systems Administration</text>
 </g>
 <g class="fade" style="animation-delay:{out3:.2f}s">
-  <text x="{x0}" y="182" font-family="{MONO}" font-size="13" fill="{t["dim"]}">Entra ID · Azure · Microsoft 365  ·  Terraform · PowerShell · Python  ·  Baltimore, MD</text>
+  <text x="{x0}" y="182" font-family="{MONO}" font-size="13" fill="{t["dim"]}">Entra ID · Azure · Microsoft 365  ·  Terraform · Python · PowerShell  ·  Baltimore, MD</text>
 </g>
 
 <g class="fade" style="animation-delay:{prompt2-0.1:.2f}s">

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 248" width="840" height="248" role="img" aria-labelledby="t d">
 <title id="t">Patrick O'Brien, Identity and Access Management, Cloud and Systems Administration</title>
-<desc id="d">A terminal window types the command whoami and prints: Patrick O'Brien, Identity and Access Management, Cloud and Systems Administration, Microsoft Entra ID, Azure, Microsoft 365, Terraform, PowerShell and Python, Baltimore, Maryland.</desc>
+<desc id="d">A terminal window types the command whoami and prints: Patrick O'Brien, Identity and Access Management, Cloud and Systems Administration, Microsoft Entra ID, Azure, Microsoft 365, Terraform, Python and PowerShell, Baltimore, Maryland.</desc>
 <style>
   .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:15px}
   .c{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:15px;fill:#E7EBEF;animation:show .01s linear both}
@@ -34,7 +34,7 @@
   <text x="28" y="156" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#E8A33D">Identity &amp; Access Management  ·  Cloud &amp; Systems Administration</text>
 </g>
 <g class="fade" style="animation-delay:2.22s">
-  <text x="28" y="182" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#94A1B2">Entra ID · Azure · Microsoft 365  ·  Terraform · PowerShell · Python  ·  Baltimore, MD</text>
+  <text x="28" y="182" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#94A1B2">Entra ID · Azure · Microsoft 365  ·  Terraform · Python · PowerShell  ·  Baltimore, MD</text>
 </g>
 
 <g class="fade" style="animation-delay:2.62s">
