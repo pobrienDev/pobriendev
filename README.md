@@ -9,7 +9,7 @@ and offboarding in a Microsoft 365 tenant of 400+ users across 100+ properties. 
 I codified that same identity layer as Terraform in a personal sandbox tenant: app registrations,
 Conditional Access policies with guardrails, and monitors for expiring credentials and stale accounts.
 
-I also build and ship full-stack apps in React and FastAPI, both live, with CI/CD behind them.
+Everything above is built the way software is built: tests, CI on every pull request, and a plan posted before any infrastructure changes. I also ship full-stack apps in React and FastAPI, both live.
 
 [pobriendev.github.io/portfolio](https://pobriendev.github.io/portfolio) · patobrien3590@gmail.com
 
