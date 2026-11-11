@@ -44,6 +44,10 @@ Everything above is built the way software is built: tests, CI on every pull req
 - **[ticket-system](https://github.com/pobriendev/ticket-system)** — helpdesk app in React, FastAPI and PostgreSQL with JWT auth, role-based access, and an audit log of every ticket field change. 175+ backend tests (~96% coverage) and 135+ frontend tests. [Live demo](https://ticket-system-azure-omega.vercel.app). [![CI status](https://github.com/pobrienDev/ticket-system/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/pobrienDev/ticket-system/actions/workflows/ci.yml)
 - **[ski-resort-explorer](https://github.com/pobriendev/ski-resort-explorer)** — React + Flask REST API serving 423 resorts from MySQL, with live weather and precipitation radar from OpenWeatherMap, proxied through Flask so the API key never reaches the browser.
 
+**Data pipelines**
+
+- **[medicaid-enrollment-pipeline](https://github.com/pobriendev/medicaid-enrollment-pipeline)** — pulls public Medicaid and CHIP enrollment data from the CMS API, validates it with pandas, and upserts it into PostgreSQL every week from GitHub Actions. Reruns never duplicate rows, bad data stops before the load, and every run is logged to an audit table. 49 tests, including integration tests against a real Postgres in CI. [![CI status](https://github.com/pobrienDev/medicaid-enrollment-pipeline/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/pobrienDev/medicaid-enrollment-pipeline/actions/workflows/ci.yml)
+
 <!-- next thing goes here -->
 
 ### Working with
