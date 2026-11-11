@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="840" alt="Patrick O'Brien, Identity and Access Management, Cloud and Systems Administration. Microsoft Entra ID, Azure, Microsoft 365, Terraform, Python and PowerShell. Baltimore, MD.">
+  <img src="assets/header-light.svg" width="840" alt="Patrick O'Brien, Identity and Access Management, Automation, Cloud and Systems Administration. Microsoft Entra ID, Azure, Microsoft 365, Terraform, Python and PowerShell. Baltimore, MD.">
 </picture>
 
 I work in IT and automate the identity layer, and the infrastructure underneath it.
