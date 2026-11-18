@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="840" alt="Patrick O'Brien, Identity and Access Management, Systems Automation, Cloud and Systems Administration. Microsoft Entra ID, Azure, Microsoft 365, Terraform, Python and PowerShell. Baltimore, MD.">
+  <img src="assets/header-light.svg" width="840" alt="Patrick O'Brien, Systems Automation, Cloud and Systems Administration, Identity and Access Management. Microsoft Entra ID, Azure, Microsoft 365, Terraform, Python and PowerShell. Baltimore, MD.">
 </picture>
 
 I work in IT and automate the identity layer, and the infrastructure underneath it.
@@ -55,5 +55,5 @@ Everything above is built the way software is built: tests, CI on every pull req
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" width="692" alt="Microsoft Entra ID, Microsoft Graph API, Azure, Python, PowerShell, Terraform, GitHub Actions, Docker, TypeScript, JavaScript, React, FastAPI, Flask, PostgreSQL">
+  <img src="assets/stack-light.svg" width="592" alt="Microsoft Entra ID, Microsoft Graph API, Azure, Azure Functions, Terraform, GitHub Actions, Python, PowerShell, pytest, pandas, PostgreSQL, MySQL, Docker, TypeScript, JavaScript, React, FastAPI, Flask">
 </picture>
