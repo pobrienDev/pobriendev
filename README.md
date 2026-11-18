@@ -3,7 +3,8 @@
   <img src="assets/header-light.svg" width="840" alt="Patrick O'Brien, Systems Automation, Cloud and Systems Administration, Identity and Access Management. Microsoft Entra ID, Azure, Microsoft 365, Terraform, Python and PowerShell. Baltimore, MD.">
 </picture>
 
-I work in IT and automate the identity layer, and the infrastructure underneath it.
+I work in IT and automate systems administration, starting with the identity layer and the
+infrastructure underneath it.
 At work, that is Python and PowerShell tooling on the Microsoft Graph API that automates onboarding
 and offboarding in a Microsoft 365 tenant of 400+ users across 100+ communities. On my own time,
 I codified that same identity layer as Terraform in a personal sandbox tenant: app registrations,
